@@ -32,6 +32,8 @@ public class VerifyConfirmationMessage {
             System.out.println("PASS");
         }else{
             System.out.println("FAIL");
+            System.out.println("actualMessage = " + actualMessage);
+            System.out.println("expectedConfirmationMessage = " + expectedConfirmationMessage);
         }
 
         driver.quit();
